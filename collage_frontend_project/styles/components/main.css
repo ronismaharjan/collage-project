@@ -1,0 +1,36 @@
+main {
+  padding: 5em 0;
+  display: flex;
+  gap: 10em;
+}
+.main__infosection {
+  flex: 1;
+}
+.main__title {
+  font-size: var(--size-5xl);
+  color: var(--clr-light);
+  line-height: 1.2em;
+}
+
+.main__about {
+  font-size: var(--size-s);
+  margin-bottom: 2em;
+}
+
+.main__btn {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+.main__btn:hover {
+  background-color: var(--clr-yellow600);
+}
+.main__btn:active {
+  background-color: var(--clr-yellow300);
+}
+.main__image {
+  flex: 1;
+}
+.main__image img {
+  border-radius: 20px;
+}

@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+  margin-inline: auto;
+}
+.btn {
+  background-color: var(--clr-yellow400);
+  padding: 0.7em 2em;
+  color: var(--clr-dark);
+  display: inline-block;
+}
+.highlight {
+  color: var(--clr-yellow500);
+}

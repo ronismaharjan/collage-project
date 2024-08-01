@@ -1,0 +1,71 @@
+/* --------------------- */
+/* Css reset */
+/* --------------------- */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+/* --------------------- */
+/* Typography */
+/* --------------------- */
+h1 {
+  font-size: 2rem;
+}
+
+/* --------------------- */
+/* Variables */
+/* --------------------- */
+:root {
+  /* colors */
+  --clr-yellow300: #fde047;
+  --clr-yellow400: #facc15;
+  --clr-yellow500: #eab308;
+  --clr-yellow600: #ca8a04;
+
+  --clr-gray400: #9ca3af;
+  --clr-gray300: #d1d5db;
+
+  --clr-bg: #111827;
+  --clr-dark: #000000;
+  --clr-light: #ffff;
+
+  /* sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-s: 0.875rem;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "inter", "Poppins", sans-serif;
+  background-color: var(--clr-dark);
+  color: var(--clr-gray400);
+  background-color: var(--clr-bg);
+}
